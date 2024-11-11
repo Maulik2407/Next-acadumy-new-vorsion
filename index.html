@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/24303e5d50.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+
+  <!--    navbar    -->
+
+  <nav class="navbar py-3 navbar-expand-lg" data-bs-theme="dark"
+    style="position: fixed; z-index: 111111111; background: rgb(121, 32, 181);
+  transition: 5s linear; width: 100%;
+  background: linear-gradient(356deg, rgba(132,45,189,1) 7%, rgba(132,50,171,1) 24%, rgba(138,59,174,1) 34%, rgba(142,30,200,1) 48%, rgba(111,45,207,0.9831582291119573) 61%, rgba(138,50,223,1) 81%, rgba(150,37,223,1) 91%, rgba(139,37,214,1) 97%);">
+    <div class="container-fluid">
+      <img class="ms-xl-5" src="next-academy-logo (1).png" alt="" style="width: 90px; z-index: 11111;">
+      <button class="navbar-toggler" style="z-index: 1111;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"  style="z-index: 11111;" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto gap-xl-5 gap-3 me-3 mt-xl-0 mt-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="mainclick()" class="nav-link" aria-current="page" href="#">Cntact us</a>
+          </li>
+
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="">Join Now</button>
+        </form> -->
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!--   pop js   -->
+
+  <div class="pop-box d-flex flex-column gap-5 align-items-center justify-content-center" style="z-index: 11111111111;">
+
+    <i class="xx-btx fa-regular fa-circle-xmark" onclick="mainCloseclick()"></i>
+
+    <img src="next-academy-logo (1).png" alt="" style="width: 200px;">
+    <span class="showw d-flex flex-column gap-5">
+      <a href="https://www.facebook.com/nextacademykalol/"> <img src="facebook-1.png" alt="" style="width: 200px;"></a>
+      <a href="https://api.whatsapp.com/send/?phone=919737949789&text&type=phone_number&app_absent=0"><img class="py-2"
+          src="what-2.png" alt=""
+          style="width: 200px; height: 73px; object-fit: cover; border: 2px solid rgb(53, 220, 103); border-radius: 12px;"></a>
+      <a href="https://www.instagram.com/next.academyindia/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><img src="inst-2.png" alt=""
+          style="width: 200px; height: 70px; object-fit: cover; border: 2px solid rgb(220, 78, 53); border-radius: 12px;"></a>
+    </span>
+  </div>
+
+
+
+
+  <!--     1      -->
+
+  <div class="container-fluid pt-5 p-0 con-one position-relative"
+    style="background: rgb(132,45,189);
+    transition: .6s ease-in-out; overflow: hidden;
+      background: linear-gradient(356deg, rgba(132,45,189,1) 7%, rgba(132,50,171,1) 24%, rgba(138,59,174,1) 34%, rgba(142,30,200,1) 48%, rgba(111,45,207,0.9831582291119573) 61%, rgba(138,50,223,1) 81%, rgba(150,37,223,1) 91%, rgba(139,37,214,1) 97%);  overflow: hidden; ">
+
+
+    <div class="ston-box  d-xl-flex d-none">
+      <img class="ston-right" src="ston-png.png" alt="">
+      <img class="ston-left" src="ston-png.png" alt="">
+    </div>
+
+    <div class="row">
+
+      <div
+        class="col-xl-6 col-12 first-ttx bkk gap-5 py-5 d-flex flex-column align-items-center justify-content-center p-0"
+        style="text-align: start;">
+        <h1 class="ms-5">From beginner to Pro: <br> Transform Your Career <br> with Our IT Courses</h1>
+        <p>🚀 Unlock potential with cutting-edge IT courses <br>
+          👨🏽‍💻 Elevate skills with in-demand IT training <br>
+          💡 Digital excellence starts here at Next Academy!</p>
+        <button class="sup-btx">explore more</button>
+
+        <div class="i-box-one d-flex align-items-center justify-content-evenly" data-aos="fade-up"
+          data-aos-duration="1500">
+          <img src="atom.png" alt="">
+          <img src="java.png" alt="">
+          <img src="java-script.png" alt="">
+          <img src="python-logo.png" alt="">
+        </div>
+      </div>
+
+      <div class="col-xl-6 col-12 first-right d-flex align-itums-end justify-content-center">
+        <img src="main-bg-2.png" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--    2     -->
+
+  <div class="container-fluid main-con-two p-0 position-relative"
+    style="background: rgb(132,45,189);
+   transition: 5s linear;
+    background: linear-gradient(356deg, rgba(132,45,189,1) 7%, rgba(132,50,171,1) 24%, rgba(138,59,174,1) 34%, rgba(142,30,200,1) 48%, rgba(111,45,207,0.9831582291119573) 61%, rgba(138,50,223,1) 81%, rgba(150,37,223,1) 91%, rgba(139,37,214,1) 97%); overflow: hidden;">
+    <img src="h-1.jpg" alt="">
+
+    <div class="row mx-auto p-0 px-xl-5">
+
+      <div class="col-xl-6 col-11 mx-auto sec-left mt-5" style="position: relative; height: 80vh; z-index: 1111;">
+
+        <div class="sec-card-one">
+
+          <div class="idbk" style="z-index: -1111; background-color: rgb(115, 3, 152);">
+             <video loop autoplay muted src="maul-video.mp4" style="width: 100%; height: 100%; object-fit: cover;  opacity: 0.4;"></video>
+          </div>
+
+
+        </div>
+       
+        <div class="sec-card-two"></div>
+        <div class="sec-card-three ">
+        </div>
+        <div class="sec-card-four"></div>
+
+
+      </div>
+
+      <div class="col px-5 py-5 sec-ttx flex-column align-items-start justify-content-evenly" style="z-index: 111111;"
+        data-aos="fade-left" data-aos-duration="1600" data-aos-easing="ease-in-out">
+        <span class="mx-xl-0 mx-auto" style="  text-shadow: rgba(252, 161, 253, 0.769) 3px 4px 8px;">GET TO KNOW
+          US</span>
+        <h1>Grow your skills learn <br>
+          with us from anywhare</h1>
+        <p>IT skills are a rather wide skill set that range from hardware installment <br> and software development to
+          troubleshooting and data analysis. <br> They include hard skills, which directly relate to operating and
+          manipulating technology.</p>
+        <div class="mini-box-sec">
+          <span><i class="fa-regular fa-circle-check"></i>Expert trainers</span>
+          <span><i class="fa-regular fa-circle-check"></i>online learning</span>
+          <span><i class="fa-regular fa-circle-check"></i>Lifetime access</span>
+          <span><i class="fa-regular fa-circle-check"></i>Great reasult</span>
+        </div>
+        <button class="sup-btx">More About Us</button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!--    3    -->
+
+
+  <div class="container-fluid p-0 main-con-three"
+    style="background: rgb(132,45,189);
+  transition: 5s linear; 
+   background: linear-gradient(356deg, rgba(132,45,189,1) 7%, rgba(132,50,171,1) 24%, rgba(138,59,174,1) 34%, rgba(142,30,200,1) 48%, rgba(111,45,207,0.9831582291119573) 61%, rgba(138,50,223,1) 81%, rgba(150,37,223,1) 91%, rgba(139,37,214,1) 97%); overflow: hidden; position: relative; ">
+
+    <img class="ffimg mx-auto" src="line-png-1.png" alt=""
+      style="position: absolute; z-index: 1111; width: 100%; height: 100%; object-fit: cover;">
+    <div class="row">
+
+      <div class="col three-ttx py-5 d-flex flex-column align-items-center justify-content-evenly gap-3"
+        style="z-index: 11111;">
+        <button class="last-btxx text-white">Our Speciality</button>
+        <h1 style=" text-align: center;">We are expert in this areas</h1>
+        <p style="text-align: center;">IT is the architect of innovation, Code is <br>
+          the poetry that powers the language of technology</p>
+      </div>
+
+      <div class="row mx-auto py-5">
+
+        <!--   card-1 -->
+        <div class="col-xl-3 col-11 mx-auto mt-xl-0 mt-2 d-flex" data-aos="fade-up" data-aos-duration="500"
+          data-aos-easing="ease-in-out">
+          <div class="col main-card d-flex flex-column align-items-center justify-content-center gap-3">
+            <div class="the-spine">
+
+              <div class="card-spin">
+                <div class="font-root">
+                  <img src="g-1.jpeg" alt="" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <div class="back-root">
+
+                </div>
+              </div>
+
+            </div>
+
+            <h1>Graphic Design</h1>
+            <p class="px-3">Have a deep understanding of typography, color theory, photos, layout, blocking and other
+              design.</p>
+          </div>
+        </div>
+
+        <!--   card-2    -->
+
+        <div class="col-xl-3 col-11 mx-auto mt-xl-0 mt-5 d-flex" data-aos="fade-up" data-aos-duration="900"
+          data-aos-easing="ease-in-out">
+          <div class="col main-card d-flex flex-column align-items-center justify-content-center gap-3">
+            <div class="the-spine">
+
+              <div class="card-spin">
+                <div class="font-root">
+                  <img src="g-2.png" alt="" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <div class="back-root"></div>
+              </div>
+
+            </div>
+            <h1>Web Development</h1>
+            <p class="px-3">Now you know how to use HTML, CSS, and JavaScript to create, style, and make interactive web
+              pages.</p>
+          </div>
+        </div>
+
+        <!--   card-3   -->
+
+        <div class="col-xl-3 col-11 mx-auto mt-xl-0 mt-5 d-flex" data-aos="fade-up" data-aos-duration="1200"
+          data-aos-easing="ease-in-out">
+          <div class="col main-card d-flex flex-column align-items-center justify-content-center gap-3">
+            <div class="the-spine">
+
+              <div class="card-spin">
+                <div class="font-root">
+                  <img src="g-3.webp" alt="" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <div class="back-root"></div>
+              </div>
+
+            </div>
+            <h1>Digital Marketing</h1>
+            <p class="px-3">Digital marketing is the use of digital channels to market products. Also known as online
+              marketing.</p>
+          </div>
+        </div>
+
+        <!--   card-4   -->
+
+        <div class="col-xl-3 col-11 mx-auto mt-xl-0 mt-5 d-flex" data-aos="fade-up" data-aos-duration="1500"
+          data-aos-easing="ease-in-out">
+          <div class="col main-card d-flex flex-column align-items-center justify-content-center gap-3">
+            <div class="the-spine">
+
+              <div class="card-spin">
+                <div class="font-root">
+                  <img src="g-4.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                </div>
+                <div class="back-root"></div>
+              </div>
+
+            </div>
+            <h1>Motion Graphic</h1>
+            <p class="px-3">Motion graphics are a way to communicate with the viewer, and add depth to the story.</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--     4    -->
+
+  <div class="container-fluid for-main-con"
+    style="background: rgb(132,45,189);
+  transition: 5s linear;
+   background: linear-gradient(356deg, rgba(132,45,189,1) 7%, rgba(132,50,171,1) 24%, rgba(138,59,174,1) 34%, rgba(142,30,200,1) 48%, rgba(111,45,207,0.9831582291119573) 61%, rgba(138,50,223,1) 81%, rgba(150,37,223,1) 91%, rgba(139,37,214,1) 97%);">
+
+    <div class="four-iibx">
+
+      <img class="ffimg" src="line-png-1.png" alt=""
+      style="width: 100%; height: 100%; left: 0; object-fit: cover;">
+
+    </div>
+
+    
+
+    <div class="row px-3 mx-auto py-5">
+
+      <!--  left -->
+      <div class="col" style="z-index: 1111;" data-aos="fade-right" data-aos-duration="1600"
+        data-aos-easing="ease-in-out">
+
+        <div class="tit-box text-white">
+          <h1>
+            Expand your Knowledge to be a PRO</h1>
+          <p>Learning is the process of acquiring new or modifying existing, knowledge, behaviors, skills values, or
+            preferences
+
+            The ability to learn is possessed by humans. animals and some machines, there is also evidence for some kind
+            of learning in certain plants.</p>
+        </div>
+
+        <div class="optione-box py-5">
+          <span><i class="fa-solid fa-right-left"></i></span>
+          <h1>Full Stack Development</h1>
+
+          <div class="op-box text-white py-xl-0 py-4">
+            <h1>Full Stack Development</h1>
+            <p>From Front-End Finesse to Back- <br> End Mastery: Full Stack Development Demystified</p>
+            <button class="lor-box"> </button>
+          </div>
+
+
+        </div>
+
+        <!--   2   -->
+        <div class="optione-box mt-5 py-5">
+          <span><i class="fa-solid fa-desktop"></i></span>
+          <h1>Software Development</h1>
+
+          <div class="op-box text-white">
+            <h1>Full Stack Development</h1>
+            <p>From Front-End Finesse to Back- <br> End Mastery: Full Stack Development Demystified</p>
+            <button class="lor-box"> </button>
+          </div>
+
+        </div>
+        <!-- 3 -->
+        <div class="optione-box mt-5 py-5">
+          <span><i class="fa-solid fa-pen-nib"></i></span>
+          <h1>Graphic Designer</h1>
+
+          <div class="op-box text-white">
+            <h1>Full Stack Development</h1>
+            <p>From Front-End Finesse to Back- <br> End Mastery: Full Stack Development Demystified</p>
+            <button class="lor-box"> </button>
+          </div>
+
+        </div>
+        <!-- 4 -->
+        <div class="optione-box mt-5 py-5">
+          <span><i class="fa-solid fa-object-ungroup"></i></span>
+          <h1>UI & UX Designerr</h1>
+
+          <div class="op-box text-white">
+            <h1>Full Stack Development</h1>
+            <p>From Front-End Finesse to Back- <br> End Mastery: Full Stack Development Demystified</p>
+            <button class="lor-box"> </button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!--  right -->
+      <div class="col mt-xl-0 mt-5 d-flex justify-content-center ">
+
+        <div class="ani-box" >
+
+          <div class="ani-img">
+            <img src="next-group-2.jpeg.jpg" alt="" style="width: 100%; height: 100%; object-fit:  cover;">
+          </div>
+          <div class="ani-img">
+            <img src="next-2.jpg" alt="" style="width: 100%; height: 100%; object-fit:  cover;">
+          </div>
+          <div class="ani-img">
+            <img src="maulik-img.jpg" alt="" style="width: 100%; height: 100%; object-fit:  cover;">
+          </div>
+          <div class="ani-img">
+            <img src="next-4.jpg" alt="" style="width: 100%; height: 100%; object-fit:  cover;">
+          </div>
+          <div class="ani-img">
+            <img src="next-3.jpg" alt="" style="width: 100%; height: 100%; object-fit:  cover;">
+          </div>
+          <div class="ani-img">
+            <img src="next-1.jpg" alt="" style="width: 100%; height: 100%; object-fit:  cover;">
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  <!--     fff     -->
+
+  <div class="contaner-fluid" style="overflow: hidden; position: relative;">
+    <div class="row">
+      <div class="col pfx-box">
+        <h1>What Students Think About Us</h1>
+        <p>Where Code Meets Creativity Your Journey Begins Here, Coding <br> the Future, One Student at a Time.</p>
+        <video loop autoplay muted src="High tech digital world background 4k.mp4"></video>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--   5    -->
+
+  <div class="container-fluid p-0 main-con-five"
+    style="background: rgb(132,45,189); overflow: hidden;
+  transition: 5s linear; overflow: hidden;
+   background: linear-gradient(356deg, rgba(132,45,189,1) 7%, rgba(132,50,171,1) 24%, rgba(138,59,174,1) 34%, rgba(142,30,200,1) 48%, rgba(111,45,207,0.9831582291119573) 61%, rgba(138,50,223,1) 81%, rgba(150,37,223,1) 91%, rgba(139,37,214,1) 97%); overflow: hidden; position: relative;">
+
+    <img class="ffimg" src="line-png-1.png" alt=""
+      style="position: absolute; z-index: 1111; width: 100%; height: 100%; object-fit: cover;">
+
+    <div class="row px-4 mx-auto">
+
+      <div class="col py-5 five-ttx d-flex flex-column align-items-center justify-content-center"
+        style="text-align: center;">
+        <h1>What Students Think About Us</h1>
+        <p>Where Code Meets Creativity Your Journey Begins Here, Coding <br> the Future, One Student at a Time.</p>
+      </div>
+
+      <div class="row bgg">
+
+        <div class="col-xl-3 d-flex xhov align-items-center " style=" height: 400px;" data-aos="fade-up"
+          data-aos-duration="600" data-aos-easing="ease-in-out">
+          <div class="col five-card d-flex flex-column align-items-center justify-content-center gap-3"
+            style="text-align: center;">
+            <div class="i-bbx"
+              style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; z-index: 11111;"><img
+                src="n-1.jpeg" alt=""></div>
+            <h1>Himanshu Parmar</h1>
+            <p class="px-3">I never thought this types of service is available in kalol but The experience of learning
+              web
+              development is best in NEXT Academy. I'm happy to part of it....</p>
+            <span></span>
+          </div>
+        </div>
+        <!--    *    -->
+        <div class="col-xl-3 mt-xl-0 d-flex  align-items-center " style=" height: 400px;" data-aos="fade-up"
+          data-aos-duration="900" data-aos-easing="ease-in-out">
+          <div class="col five-card d-flex flex-column align-items-center justify-content-center gap-3"
+            style="text-align: center;">
+            <div class="i-bbx"
+              style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; z-index: 11111;"><img
+                src="n-2.jpeg" alt=""></div>
+            <h1>Adnan Memon</h1>
+            <p class="px-3">Next academy is best for IT education and I got good education from here and today I am a
+              graphic designer.Best education At Next academy. i am happy to part of it.</p>
+            <span></span>
+          </div>
+        </div>
+        <!--    *    -->
+        <div class="col-xl-3 mt-xl-0 d-flex align-items-center " style=" height: 400px;" data-aos="fade-up"
+          data-aos-duration="1200" data-aos-easing="ease-in-out">
+          <div class="col five-card d-flex flex-column align-items-center justify-content-center gap-3"
+            style="text-align: center;">
+            <div class="i-bbx "
+              style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; z-index: 11111;"><img
+                src="n-3.png" alt=""></div>
+            <h1>Ansh Gajjar</h1>
+            <p class="px-3">I started web development course few months ago and I am having great experience at next
+              academy. I am learning every possible things via help of our mentor Shahid sir.</p>
+            <span></span>
+          </div>
+        </div>
+        <!--    *    -->
+        <div class="col mt-xl-0 bkk d-flex align-items-center " style=" height: 400px;" data-aos="fade-up"
+          data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <div class="col five-card d-flex flex-column align-items-center justify-content-center gap-3"
+            style="text-align: center; ">
+            <div class="i-bbx"
+              style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; z-index: 11111;"><img
+                src="n-4.jpg" alt=""></div>
+            <h1>dharmik</h1>
+            <p class="px-3">I’m a student of Graphic designing. I learn Coral draw, Adobe photoshop and Adobe
+              Illustrator. It’s Been a great experience I learn many new things here, improve my creative skills as
+              well.</p>
+            <span></span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--          6          -->
+
+  <div class="comtainer-fluid main-con-sixx"
+    style="background: rgb(132,45,189); overflow: hidden;
+  transition: 5s linear; overflow: hidden; 
+   background: linear-gradient(356deg, rgba(132,45,189,1) 7%, rgba(132,50,171,1) 24%, rgba(138,59,174,1) 34%, rgba(142,30,200,1) 48%, rgba(111,45,207,0.9831582291119573) 61%, rgba(138,50,223,1) 81%, rgba(150,37,223,1) 91%, rgba(139,37,214,1) 97%); overflow: hidden; position: relative; ">
+
+    <div class="container">
+
+      <div class="row d-flex px-4 py-4">
+
+        <div class="col-xl-3 d-flex mx-auto gap-3 flex-column align-items-xl-center"
+          style="z-index: 1111111; text-align: center;">
+
+          <div class="end-card-box">
+            <p style="color: white;">HEAD-OFFICE :</p>
+            <h1 style="color: white;">SF-1, CITY MALL-1,
+              (KALOL)</h1>
+          </div>
+          <div class="end-card-box" style="z-index: 11111;">
+            <h1 style="color: white;">Have Query?
+              Whatsapp Now</h1>
+            <button style="background: none; color: white; font-weight: bold;"><span><i
+                  class="fa-brands fa-whatsapp"></i></span> 9737949789</button>
+          </div>
+        </div>
+
+        <div
+          class="col-xl-3 mt-xl-0 mt-4 mx-auto d-flex align-items-xl-center justify-content-center d-flex flex-column end-ttx"
+          style="z-index: 11111; text-align: start;">
+          <h1 class="me-xl-4" style="color: white;">Company</h1>
+          <p>About Us <br>
+            Career <br>
+            Contact Us <br>
+            Customer Care</p>
+        </div>
+        <div
+          class="col-xl-3 mt-xl-0 ms-auto mt-4 mx-xl-auto  d-flex flex-column align-items-xl-center justify-content-center end-ttx"
+          style="z-index: 11111; text-align: start;">
+          <h1 class="ms-xl-4">Who We Help</h1>
+          <p>Student <br>
+            Professional <br>
+            Job Sicker</p>
+        </div>
+        <div class="col mt-xl-0 mt-4 d-flex flex-column align-items-xl-center justify-content-center end-ttx"
+          style="z-index: 1111111; text-align: start;">
+          <h1>Resources</h1>
+          <a href=""></a>
+          <p>Kalol <br>
+            Adalaj <br>
+            Ahmadabad</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="col py-2 end-bbx" style="background-color: rgba(19, 18, 18, 0.657); z-index: 111111;">
+      <img src="next-academy-logo (1).png" alt="" style="width: 100px; z-index: 11111;">
+      <p class=" mt-3 text-white" style="z-index: 111111;">Empower your future with transformative education.</p>
+      <div class="icon-box d-flex gap-5" style="z-index: 111111;">
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-linkedin"></i></span>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
